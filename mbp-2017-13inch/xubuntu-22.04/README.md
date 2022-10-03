@@ -1,8 +1,10 @@
 ### Executables
 
-- `fix_audio.sh`: run to fix audio issue (no audio found, no sound, etc)
-- `fix_camera.sh`: run to fix camera issue (not working, not detected, etc)
+- `fix_audio.sh`: run to fix audio issues (no audio found, no sound, etc)
+- `fix_camera.sh`: run to fix camera issues (not working, not detected, etc)
 - `fix_camera_alternate.sh`: run if `fix_camera.sh` is not working
+
+please restart your macbook after running that scripts.
 
 ### Drivers
 
