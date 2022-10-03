@@ -1,0 +1,1 @@
+cmd_/home/dalikewara/repos/common/snd-hda-codec-cs8409/snd-hda-codec-cs8409.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/dalikewara/repos/common/snd-hda-codec-cs8409/snd-hda-codec-cs8409.ko /home/dalikewara/repos/common/snd-hda-codec-cs8409/snd-hda-codec-cs8409.o /home/dalikewara/repos/common/snd-hda-codec-cs8409/snd-hda-codec-cs8409.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/dalikewara/repos/common/bcwc_pcie/Module.symvers := sed 's/\.ko$$/\.o/' /home/dalikewara/repos/common/bcwc_pcie/modules.order | scripts/mod/modpost -m -a  -o /home/dalikewara/repos/common/bcwc_pcie/Module.symvers -e -i Module.symvers   -T -

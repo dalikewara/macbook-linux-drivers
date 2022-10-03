@@ -1,0 +1,1 @@
+cmd_/home/dalikewara/repos/common/snd-hda-codec-cs8409/Module.symvers := sed 's/\.ko$$/\.o/' /home/dalikewara/repos/common/snd-hda-codec-cs8409/modules.order | scripts/mod/modpost -m -a  -o /home/dalikewara/repos/common/snd-hda-codec-cs8409/Module.symvers -e -i Module.symvers   -T -
