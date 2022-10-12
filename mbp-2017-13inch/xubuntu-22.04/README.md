@@ -11,3 +11,4 @@
 - **bcwc_pcie**: https://github.com/patjak/bcwc_pcie.git
 - **facetimehd-firmware**: https://github.com/patjak/facetimehd-firmware.git
 - **snd-hda-codec-cs8409**: https://github.com/egorenar/snd-hda-codec-cs8409.git
+- **snd_hda_macbookpro**: https://github.com/davidjo/snd_hda_macbookpro.git

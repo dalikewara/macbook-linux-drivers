@@ -1,1 +1,1 @@
-cmd_/home/dalikewara/repos/common/bcwc_pcie/modules.order := {   echo /home/dalikewara/repos/common/bcwc_pcie/facetimehd.ko; :; } | awk '!x[$$0]++' - > /home/dalikewara/repos/common/bcwc_pcie/modules.order
+cmd_/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/modules.order := {   echo /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/facetimehd.ko; :; } | awk '!x[$$0]++' - > /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/modules.order

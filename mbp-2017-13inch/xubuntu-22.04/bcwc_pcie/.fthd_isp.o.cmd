@@ -1,8 +1,8 @@
-cmd_/home/dalikewara/repos/common/bcwc_pcie/fthd_isp.o := gcc -Wp,-MMD,/home/dalikewara/repos/common/bcwc_pcie/.fthd_isp.o.d -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/11/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough=5 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -g -gdwarf-5 -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-zero-length-bounds -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE  -DKBUILD_BASENAME='"fthd_isp"' -DKBUILD_MODNAME='"facetimehd"' -D__KBUILD_MODNAME=kmod_facetimehd -c -o /home/dalikewara/repos/common/bcwc_pcie/fthd_isp.o /home/dalikewara/repos/common/bcwc_pcie/fthd_isp.c
+cmd_/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_isp.o := gcc -Wp,-MMD,/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/.fthd_isp.o.d -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/11/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough=5 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -g -gdwarf-5 -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-zero-length-bounds -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-alloc-size-larger-than -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE  -DKBUILD_BASENAME='"fthd_isp"' -DKBUILD_MODNAME='"facetimehd"' -D__KBUILD_MODNAME=kmod_facetimehd -c -o /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_isp.o /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_isp.c
 
-source_/home/dalikewara/repos/common/bcwc_pcie/fthd_isp.o := /home/dalikewara/repos/common/bcwc_pcie/fthd_isp.c
+source_/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_isp.o := /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_isp.c
 
-deps_/home/dalikewara/repos/common/bcwc_pcie/fthd_isp.o := \
+deps_/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_isp.o := \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   include/linux/kconfig.h \
@@ -937,7 +937,6 @@ deps_/home/dalikewara/repos/common/bcwc_pcie/fthd_isp.o := \
     $(wildcard include/config/GENERIC_IOMAP) \
     $(wildcard include/config/GENERIC_IOREMAP) \
     $(wildcard include/config/VIRT_TO_BUS) \
-    $(wildcard include/config/GENERIC_DEVMEM_IS_ALLOWED) \
   include/linux/logic_pio.h \
     $(wildcard include/config/INDIRECT_PIO) \
   include/linux/vmalloc.h \
@@ -961,7 +960,7 @@ deps_/home/dalikewara/repos/common/bcwc_pcie/fthd_isp.o := \
     $(wildcard include/config/FW_LOADER) \
   include/linux/dmi.h \
     $(wildcard include/config/DMI) \
-  /home/dalikewara/repos/common/bcwc_pcie/fthd_drv.h \
+  /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_drv.h \
   include/linux/pci.h \
     $(wildcard include/config/PCI_IOV) \
     $(wildcard include/config/PCIEAER) \
@@ -1137,6 +1136,7 @@ deps_/home/dalikewara/repos/common/bcwc_pcie/fthd_isp.o := \
   arch/x86/include/asm/uaccess.h \
     $(wildcard include/config/CC_HAS_ASM_GOTO_OUTPUT) \
     $(wildcard include/config/CC_ASM_GOTO_OUTPUT) \
+    $(wildcard include/config/CC_HAS_ASM_GOTO_TIED_OUTPUT) \
     $(wildcard include/config/ARCH_HAS_COPY_MC) \
     $(wildcard include/config/X86_INTEL_USERCOPY) \
   arch/x86/include/asm/smap.h \
@@ -1422,15 +1422,15 @@ deps_/home/dalikewara/repos/common/bcwc_pcie/fthd_isp.o := \
   include/media/v4l2-mediabus.h \
   include/media/v4l2-ctrls.h \
   include/media/hevc-ctrls.h \
-  /home/dalikewara/repos/common/bcwc_pcie/fthd_reg.h \
-  /home/dalikewara/repos/common/bcwc_pcie/fthd_ringbuf.h \
-  /home/dalikewara/repos/common/bcwc_pcie/fthd_buffer.h \
-  /home/dalikewara/repos/common/bcwc_pcie/fthd_v4l2.h \
+  /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_reg.h \
+  /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_ringbuf.h \
+  /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_buffer.h \
+  /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_v4l2.h \
   include/media/videobuf-dma-sg.h \
   include/media/videobuf-core.h \
-  /home/dalikewara/repos/common/bcwc_pcie/fthd_hw.h \
-  /home/dalikewara/repos/common/bcwc_pcie/fthd_isp.h \
+  /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_hw.h \
+  /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_isp.h \
 
-/home/dalikewara/repos/common/bcwc_pcie/fthd_isp.o: $(deps_/home/dalikewara/repos/common/bcwc_pcie/fthd_isp.o)
+/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_isp.o: $(deps_/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_isp.o)
 
-$(deps_/home/dalikewara/repos/common/bcwc_pcie/fthd_isp.o):
+$(deps_/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/bcwc_pcie/fthd_isp.o):

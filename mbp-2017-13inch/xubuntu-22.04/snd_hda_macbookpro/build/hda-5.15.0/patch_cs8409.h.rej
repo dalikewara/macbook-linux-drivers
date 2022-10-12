@@ -1,0 +1,12 @@
+--- patch_cs8409.h
++++ patch_cs8409.h
+@@ -328,6 +351,9 @@ struct sub_codec {
+ 
+ 	unsigned int hp_jack_in:1;
+ 	unsigned int mic_jack_in:1;
++#ifdef APPLE_CODECS
++	unsigned int linein_jack_in:1;
++#endif
+ 	unsigned int force_status_change:1;
+ 	unsigned int suspended:1;
+ 	unsigned int paged:1;

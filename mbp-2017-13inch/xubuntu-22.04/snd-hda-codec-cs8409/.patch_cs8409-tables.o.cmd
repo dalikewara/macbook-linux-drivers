@@ -1,8 +1,8 @@
-cmd_/home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.o := gcc -Wp,-MMD,/home/dalikewara/repos/common/snd-hda-codec-cs8409/.patch_cs8409-tables.o.d -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/11/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough=5 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -g -gdwarf-5 -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-zero-length-bounds -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE -DCONFIG_SND_HDA_RECONFIG=1 -Wno-unused-variable -Wno-unused-function -DKBUILD_BASENAME='"patch_cs8409_tables"' -DKBUILD_MODNAME='"snd_hda_codec_cs8409"' -D__KBUILD_MODNAME=kmod_snd_hda_codec_cs8409 -c -o /home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.o /home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.c
+cmd_/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/patch_cs8409-tables.o := gcc -Wp,-MMD,/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/.patch_cs8409-tables.o.d -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/11/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough=5 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -g -gdwarf-5 -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-zero-length-bounds -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-alloc-size-larger-than -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE -DCONFIG_SND_HDA_RECONFIG=1 -Wno-unused-variable -Wno-unused-function -DKBUILD_BASENAME='"patch_cs8409_tables"' -DKBUILD_MODNAME='"snd_hda_codec_cs8409"' -D__KBUILD_MODNAME=kmod_snd_hda_codec_cs8409 -c -o /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/patch_cs8409-tables.o /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/patch_cs8409-tables.c
 
-source_/home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.o := /home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.c
+source_/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/patch_cs8409-tables.o := /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/patch_cs8409-tables.c
 
-deps_/home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.o := \
+deps_/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/patch_cs8409-tables.o := \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   include/linux/kconfig.h \
@@ -17,7 +17,7 @@ deps_/home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.o :=
     $(wildcard include/config/RETPOLINE) \
     $(wildcard include/config/ARCH_USE_BUILTIN_BSWAP) \
     $(wildcard include/config/KCOV) \
-  /home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409.h \
+  /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/patch_cs8409.h \
   include/linux/pci.h \
     $(wildcard include/config/PCI_IOV) \
     $(wildcard include/config/PCIEAER) \
@@ -856,7 +856,6 @@ deps_/home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.o :=
     $(wildcard include/config/GENERIC_IOMAP) \
     $(wildcard include/config/GENERIC_IOREMAP) \
     $(wildcard include/config/VIRT_TO_BUS) \
-    $(wildcard include/config/GENERIC_DEVMEM_IS_ALLOWED) \
   include/linux/logic_pio.h \
     $(wildcard include/config/INDIRECT_PIO) \
   include/linux/fwnode.h \
@@ -1016,6 +1015,7 @@ deps_/home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.o :=
   arch/x86/include/asm/uaccess.h \
     $(wildcard include/config/CC_HAS_ASM_GOTO_OUTPUT) \
     $(wildcard include/config/CC_ASM_GOTO_OUTPUT) \
+    $(wildcard include/config/CC_HAS_ASM_GOTO_TIED_OUTPUT) \
     $(wildcard include/config/ARCH_HAS_COPY_MC) \
     $(wildcard include/config/X86_INTEL_USERCOPY) \
   arch/x86/include/asm/smap.h \
@@ -1128,14 +1128,14 @@ deps_/home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.o :=
   include/asm-generic/delay.h \
   include/linux/iopoll.h \
   include/linux/ctype.h \
-  /home/dalikewara/repos/common/snd-hda-codec-cs8409/hda_local.h \
+  /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/hda_local.h \
     $(wildcard include/config/SND_HDA_INPUT_BEEP) \
-  /home/dalikewara/repos/common/snd-hda-codec-cs8409/hda_auto_parser.h \
-  /home/dalikewara/repos/common/snd-hda-codec-cs8409/hda_jack.h \
+  /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/hda_auto_parser.h \
+  /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/hda_jack.h \
   include/sound/jack.h \
     $(wildcard include/config/SND_JACK_INPUT_DEV) \
     $(wildcard include/config/SND_JACK) \
-  /home/dalikewara/repos/common/snd-hda-codec-cs8409/hda_generic.h \
+  /home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/hda_generic.h \
   include/linux/leds.h \
     $(wildcard include/config/LEDS_TRIGGERS) \
     $(wildcard include/config/LEDS_BRIGHTNESS_HW_CHANGED) \
@@ -1147,6 +1147,6 @@ deps_/home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.o :=
     $(wildcard include/config/LEDS_TRIGGER_AUDIO) \
   include/dt-bindings/leds/common.h \
 
-/home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.o: $(deps_/home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.o)
+/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/patch_cs8409-tables.o: $(deps_/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/patch_cs8409-tables.o)
 
-$(deps_/home/dalikewara/repos/common/snd-hda-codec-cs8409/patch_cs8409-tables.o):
+$(deps_/home/dalikewara/repos/dalikewara/macbook-linux-drivers/mbp-2017-13inch/xubuntu-22.04/snd-hda-codec-cs8409/patch_cs8409-tables.o):
